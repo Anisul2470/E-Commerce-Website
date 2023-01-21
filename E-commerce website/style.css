@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+  scroll-behavior: smooth;
+}
+*{
+  font-family: sans-serif;
+}
+.navbar-brand img{
+  height: 60px;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.navbar-toggler-icon{
+  background-image: url(./img/more.png) !important;
+}
+#home{
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  background-attachment: fixed;
+}
+.home-center{ 
+  display: inline-block;
+  text-align: center;
+  
+}
+.home-center h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.home-center p{
+  font-weight: 500;
+  color: white;
+ 
+}
+.home-btn .btn-shop{
+  border: 2px solid white;
+  color: white;
+  background: black;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+.home-btn .btn-shop:hover{
+  color:black;
+  background: white;
+}
+.home-btn .btn-member{
+  border: 2px solid white;
+  color: black;
+  background: white;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+.home-btn .btn-member:hover{
+  color: white;
+  background: black;
+}
+
+.hoverImg{
+  overflow: hidden;
+}
+.hoverImg img{
+  transition: 0.75s;
+}
+.hoverImg:hover img{
+  transform: scale(1.2);
+}
+
+.btn-cart{
+  border: 2px solid black;
+  background: #000;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 3px 15px;
+}
+.btn-cart:hover{
+  text-decoration: none;
+  background: none;
+  color: black;
+  transition: 0.50s;
+}
+.btn-view{
+  border: 2px solid black;
+  background: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 3px 15px;
+}
+.btn-view:hover{
+  text-decoration: none;
+  background: #000;
+  color: white;
+  transition: 0.50s;
+}
+
+.carousel-inner{
+  text-align: center;
+}
+.carousel-inner .carousel-item img{
+  border-radius: 70%;
+  width: 20%;
+}
